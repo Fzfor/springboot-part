@@ -1,0 +1,17 @@
+# properties格式的配置文件，为了保证key唯一，会写很多层，不方便！
+# 推荐使用yml格式的配置文件
+
+#server:
+#  port: 80
+#  servlet:
+#    context-path: /fz
+
+fz:
+  user:
+    name: root
+    password: 123456
+    gfs:
+      - a
+      - b
+      - cc
+      - 123
