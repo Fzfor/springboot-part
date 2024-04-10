@@ -6,12 +6,16 @@
 #  servlet:
 #    context-path: /fz
 
+
 fz:
   user:
-    name: root
-    password: 123456
+#    name: root
+#    password: 123456
     gfs:
       - a
       - b
       - cc
       - 123
+spring:
+  profiles:
+    active: dev,test
